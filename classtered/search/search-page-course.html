@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="page-search.css" type="text/css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+    
+<body>
+    <!--ini bagian navigasi bar-->
+    <div class="navbar">  
+        <a class="judul" href="#homepage">Classtered</a>
+        <div class="search">            
+            <input class="search-term" type="text" placeholder="Search event or course" name="search" style="width: 400px;">            
+            <button class="search-button" type="submit"><i class="fa fa-search searchIcon"></i></button>
+        </div>    
+        <a href="#sign-in">Sign In</a>
+        <a href="search-page-course.html">Browse Course</a>
+        <a href="search-page-event.html">Browse Event</a>        
+    </div>
+    <br>
+    
+    <!--ini bagian header-->
+    <div class="header">              
+        <a class="header-text" href="#all">All</a>
+        <a class="header-text" href="#business">Business</a>
+        <a class="header-text" href="#design">Design</a>
+        <a class="header-text" href="#development">Development</a>
+        <a class="header-text" href="#fa">Finance and Accounting</a>
+        <a class="header-text" href="#health">Health</a>
+        <a class="header-text" href="#is">IT and Software</a>
+        <a class="header-text" href="#marketing">Marketing</a>
+        <a class="header-text" href="#music">Music</a>
+        <div class="dropdown">
+            <a class="dropbtn" href="#filter">Filter <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="#level">Level</a>
+                <a href="#rating">Rating</a> 
+                <a href="#most-viewed">Most Viewed</a>
+                <a href="#shortest">Shortest</a>
+                <a href="#cheapestr">Cheapest</a>
+                <a href="#alphabet">Sort A - Z</a>
+            </div>
+        </div>       
+    </div>    
+    <br>
+    
+    <a class="course" href="#course">
+        <img src="7-2-python-logo-free-download-png.png" alt="python course">
+        <div class="information">
+           <h3 class="info">Basic Python for Beginers</h3>
+           <div id="rating" class="info">
+               <p>
+                    <b  class="checked">4.5</b>
+                    <span class="fa fa-star checked" ></span>
+                    <span class="fa fa-star checked" ></span>
+                    <span class="fa fa-star checked" ></span>
+                    <span class="fa fa-star checked" ></span>
+                    <span class="fa fa-star" ></span>
+               </p>
+           </div>
+           <p class="info">description</p>                 
+           <p class="info">40 hours</p>
+           <p class="info">provider</p>
+           <p class="info">Name</p>
+           <p class="info"><b>Rp 500.000,00</b></p>
+        </div>         
+    </a>
+    
+</body>    
+</html>
